@@ -56,21 +56,43 @@
         android:layout_marginRight="@dimen/activity_horizontal_margin"
         android:layout_below="@id/btn_move_activity"
         android:id="@+id/btn_move_with_data"/>
+     <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dial A Number"
+                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                android:layout_below="@id/btn_move_activity"
+                android:id="@+id/btn_dial_number"/>
+     <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/move_with_result"
+                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                android:layout_below="@id/btn_move_activity"
+                android:id="@+id/btn_result_for_activity"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/result_from_activity"
+                android:layout_below="@id/btn_move_activity"
+                android:textColor="@color/kunyit"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:id="@+id/tv_result"/>
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
-        </LinearLayout>
 
+        </LinearLayout>
 
     </RelativeLayout>
 
-    <ImageButton
-        android:id="@+id/user_profile_photo"
-        android:layout_width="20dp"
-        android:layout_height="20dp"
-        android:layout_below="@+id/txt_move_activity"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="16dp"
-        android:src="@drawable/admin" />
 </RelativeLayout>
